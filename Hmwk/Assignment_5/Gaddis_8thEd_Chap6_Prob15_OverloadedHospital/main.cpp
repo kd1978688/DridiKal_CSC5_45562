@@ -79,9 +79,11 @@ int main(int argc, char** argv) {
     total = getTotalCharges (num_days, day_rate, med_charges, serv_charges);
     }
     else
+    {
         total = getTotalCharges (med_charges, serv_charges);
          //Display total hospital charges for the patient
           cout <<"Total hospital charges for the patient are: $"<< total << endl;
+    }
     
     //Map inputs to outputs or process the data
     
@@ -91,19 +93,19 @@ int main(int argc, char** argv) {
     return 0;
 }
 //Function definition for getTotalCharges
-double getTotalCharges (int num_days, double day_rate, double med_charges, double serv_charges)
+double getTotalCharges (int days, double rate, double medcharges, double servcharges)
 {
     //Declare local variable
     double total;
-    total = (day_rate*num_days)+med_charges+serv_charges;
+    total = (rate*days)+medcharges+servcharges;
     return total;
 }
 //Function definition for overloaded function
-double getToatalCharges (double med_charges, double serv_charges)
+double getToatalCharges (double medcharges, double servcharges)
 {
     //Declare local variable
     double total;
-    total = med_charges + serv_charges;
+    total = medcharges + servcharges;
     return total;
 }
 
