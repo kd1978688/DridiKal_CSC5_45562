@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=CppTemplate_ProfectPractice_CodeBreaker_CPP
+PROJECTNAME=ProjectPractice2_HangManGame_CPP
 
 # Active Configuration
 DEFAULTCONF=Debug

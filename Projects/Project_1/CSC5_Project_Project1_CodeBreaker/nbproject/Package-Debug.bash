@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dylib
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptemplate_profectpractice_codebreaker_cpp
-OUTPUT_BASENAME=cpptemplate_profectpractice_codebreaker_cpp
-PACKAGE_TOP_DIR=cpptemplateprofectpracticecodebreakercpp/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/projectpractice2_hangmangame_cpp
+OUTPUT_BASENAME=projectpractice2_hangmangame_cpp
+PACKAGE_TOP_DIR=projectpractice2hangmangamecpp/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/cpptemplateprofectpracticecodebreakercpp/bin"
+makeDirectory "${NBTMPDIR}/projectpractice2hangmangamecpp/bin"
 copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cpptemplateprofectpracticecodebreakercpp.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/projectpractice2hangmangamecpp.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cpptemplateprofectpracticecodebreakercpp.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/projectpractice2hangmangamecpp.tar *
 checkReturnCode
 
 # Cleanup

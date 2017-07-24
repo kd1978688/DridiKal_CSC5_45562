@@ -9,11 +9,11 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=cpptemplate_profectpractice_codebreaker_cpp
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/cpptemplate_profectpractice_codebreaker_cpp
+CND_ARTIFACT_NAME_Debug=projectpractice2_hangmangame_cpp
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/projectpractice2_hangmangame_cpp
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=cpptemplateprofectpracticecodebreakercpp.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/cpptemplateprofectpracticecodebreakercpp.tar
+CND_PACKAGE_NAME_Debug=projectpractice2hangmangamecpp.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/projectpractice2hangmangamecpp.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
