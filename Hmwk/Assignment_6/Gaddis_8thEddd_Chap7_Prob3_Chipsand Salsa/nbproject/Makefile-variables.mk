@@ -9,11 +9,11 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=csc5_project_project1_codebreaker
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/csc5_project_project1_codebreaker
+CND_ARTIFACT_NAME_Debug=gaddis_8theddd_chap7_prob3_chipsand_salsa
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/gaddis_8theddd_chap7_prob3_chipsand_salsa
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=csc5projectproject1codebreaker.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/csc5projectproject1codebreaker.tar
+CND_PACKAGE_NAME_Debug=gaddis8thedddchap7prob3chipsandsalsa.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/gaddis8thedddchap7prob3chipsandsalsa.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows

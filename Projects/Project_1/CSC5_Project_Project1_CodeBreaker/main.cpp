@@ -2,26 +2,29 @@
  * File:   main.cpp
  * Author: Kal Dridi
  * Created on July 19, 2017, 9:04 PM
- * Purpose:  Template to be utilized in practicing 
+ * Purpose:  Template to be utilized in building
  *           Code Breaker use CPP
  */
-
+//System Libraries
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
 #include <ctime>
-
-
 using namespace std;
- 
+
+//Global Constants
+//User Libraries
 const char CODE_SPAN = 6;		// range of digits allowed in the code (only digits 1 - 6 allowed)
-const int CODE_LENGTH = 4;		// length of code
+const int CODE_LENGTH = 4;             // length of code
+
+//Functions Prototype
 int randint(int);
 int randint(int, int);
 string get_player_code();
 string generate_code();
 int main() {
-
+        
+        //Declare 
 	srand( time(NULL) );
 
 	string player_guess, secret_code, secret_copy, player, player_copy;

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=CSC5_Project_Project1_CodeBreaker
+PROJECTNAME=Gaddis_8thEd_Chap7_Prob1_LargestSmallestArray
 
 # Active Configuration
 DEFAULTCONF=Debug
