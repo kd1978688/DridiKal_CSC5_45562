@@ -13,9 +13,12 @@
 using namespace std;
 
 //Global Constants
+
 //User Libraries
 const char CODE_SPAN = 9;		// range of digits allowed in the code (only digits 1 - 9 allowed)
 const int CODE_LENGTH = 6;             // length of code
+const int MAX_GUESSES = 10;             //Limits the number of guesses; this version of the game is harder than previous
+
 
 //Functions Prototype
 int randint(int);
@@ -26,11 +29,12 @@ string generate_code();
 int main() {                                        //Main code starts here
         
         //Declare random variables and initialize 
+        //Random Number Generator
 	srand( time(NULL) );
         //Declare Variables
-	string player_guess, secret_code, secret_copy, player, player_copy;
+	string player_guess, secret_code, secret_copy, player, player_copy;                 //Secret code and Player guess.
 
-	char repeat_game;
+	char repeat_game;                                                                   //Player input at the end of the game.
 
 	int num_guesses;
 
@@ -81,10 +85,23 @@ int main() {                                        //Main code starts here
 					}
 				}
 			}	
-	
+	if(num_guesses < MAX_GUESSES && player == secret_code){
+			guessed_code = true;
+			
+        }
+			/* Print player's guess and number of correct/misplaced digits */
 			cout << '\n' << setw(40) << player_copy << setw(15) << correct << setw(15) << misplaced << '\n';
 			cout << string(70, '=') << '\n';
-			
+	if ( !guessed_code ) {
+
+				/* If they are, print a message and the guess counter, and flip the "guessed code" flag to end current round */
+
+				cout << "Sorry, you've run out of guesses!\n";
+				cout << "The secret code was: " << secret_code << "!\n\n";
+		}
+		else{
+			cout<<"Congrats! You've guessed the secret code in "<< num_guesses << " guess(es)"<<"."<<'\n';
+		}		
 		}
                 //Message Output that asks the user to Play again!!
 		cout << "Would you like to play again (Y/N)? ";
@@ -102,7 +119,8 @@ int main() {                                        //Main code starts here
 		}
 
 	} // end while
-
+        
+        //Print Exit Message
 	cout << "Thanks for playing!\n";
 
 	return 0;
