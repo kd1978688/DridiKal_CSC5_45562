@@ -104,7 +104,7 @@ int getN(){
 //Solution to problem 1
 void problem1(){
     //Declare variables here
-    char answer;//answer to addition of hexidecimal numbers
+    char answer;//answer to addition of hexadecimal numbers
 
     introa();
     
@@ -138,7 +138,7 @@ void input()
     char number_2[10]={'0','0','0','0','0', 
                        '0','0','0','0','0'};//array for second hex number
     char sum[10]={'0','0','0','0','0','0', 
-                  '0','0','0','0'};//aray for function hex_sum
+                  '0','0','0','0'};//Array for function hex_sum
     char temp[10]={'0','0','0','0','0','0', 
                    '0','0','0','0'}; //initializing all the variables
 
